@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,6 +16,27 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn Reactttttt
+        </a>
+      </header>
+    </div>
+  );
+} */
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+      ANIME_APP1
+        <p>
+        This application will provide users with lists of manga and anime, according to the latest updates in this area
+        </p>
+        <a
+          className="App-link"
+          href="https://jikan.moe/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link to Api
         </a>
       </header>
     </div>
